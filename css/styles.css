@@ -70,10 +70,15 @@ img {
 }
 
 .page-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  width: 100%;
+  
+  background-color: #ffffff;
   border-bottom: 1px solid var(--border-color);
-
-  /* padding-top: 32px;
-  padding-bottom: 32px; */
+  
 }
 
 .header-container {
