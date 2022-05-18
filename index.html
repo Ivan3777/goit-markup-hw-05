@@ -69,7 +69,17 @@
       <section class="section-hero">
         <div class="container">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-          <button class="button-title-hero" type="button">Заказать услугу</button>
+          <button class="button-title-hero" type="button" data-modal-open>Заказать услугу</button>
+          <div class="backdrop is-hidden" data-modal>
+            <div class="modal-wrapper">
+              <button class="modal-btn" data-modal-close>
+                <svg class="btn-close" width="18" height="18">
+                  <use href="./images/icons.svg#close"></use>
+                </svg>
+              </button>
+              <!-- <form class="modal-form"></form> -->
+            </div>
+          </div>
         </div>
       </section>
 
@@ -135,21 +145,15 @@
           <ul class="list-gallery">
             <li class="item-gallery">
               <img src="./images/keyboard.jpg" alt="" width="370" />
-              <div class="caption">
-                <p class="text-gallery">Десктопные приложения</p>
-              </div>
+              <p class="text-gallery">Десктопные приложения</p>
             </li>
             <li class="item-gallery">
               <img src="./images/phone.jpg" alt="" width="370" />
-              <div class="caption">
-                <p class="text-gallery">Мобильные приложения</p>
-              </div>
+              <p class="text-gallery">Мобильные приложения</p>
             </li>
             <li class="item-gallery">
               <img src="./images/tablet.jpg" alt="" width="370" />
-              <div class="caption">
-                <p class="text-gallery">Дизайнерские решения</p>
-              </div>
+              <p class="text-gallery">Дизайнерские решения</p>
             </li>
           </ul>
         </div>
@@ -540,8 +544,8 @@
       </div>
     </footer>
 
-<!-- modal.js -->
+    <!-- modal.js -->
 
-<script src="./js/modal.js"></script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
