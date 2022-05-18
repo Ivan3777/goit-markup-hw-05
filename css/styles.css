@@ -320,6 +320,10 @@ img {
   cursor: pointer;
 }
 
+.btn-close {
+  fill: currentColor;
+}
+
 /* section benefits */
 
 .section-benefits {
